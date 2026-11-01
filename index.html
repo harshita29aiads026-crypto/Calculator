@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator </title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+<body>
+  <main class="calculator">
+
+    <h1> Scientific Calculator</h1>
+    <div id="status">Loading C engine...</div>
+
+    <div id="display">0</div>
+
+    <div class ="buttons">
+    
+      <button data-unary="0">sin</button>
+      <button data-unary="1">cos</button>
+      <button data-unary="2">tan</button>
+      <button data-unary="3">√</button>
+
+      <button data-unary="4">ln</button>
+      <button data-unary="5">log</button>
+      <button data-unary="6">n!</button>
+      <button data-op="4">xʸ</button>
+
+      <button data-clear="all">AC</button>
+      <button data-clear="entry">CE</button>
+      <button data-digit="(">(</button>
+      <button data-digit=")" >)</button>
+
+      <button data-digit="7">7</button>
+      <button data-digit="8">8</button>
+      <button data-digit="9">9</button>
+      <button data-op="3">÷</button>
+
+      <button data-digit="4">4</button>
+      <button data-digit="5">5</button>
+      <button data-digit="6">6</button>
+      <button data-op="2">×</button>
+
+      <button data-digit="1">1</button>
+      <button data-digit="2">2</button>
+      <button data-digit="3">3</button>
+      <button data-op="1">−</button>
+
+      <button data-digit="0">0</button>
+      <button data-decimal=".">.</button>
+      <button data-equals="true">=</button>
+      <button data-op="0">+</button>
+
+    </div>
+
+    <p> Scientific calculator powered by C and WebAssembly</p>
+
+  </main>
+  
+  <script src="app.js"></script>
+<script src="calculator.js"></script>
+
+</body>
+</html>
